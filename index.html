@@ -19,7 +19,7 @@
   
     <div class="offcanvas offcanvas-start myoffcanvas" data-bs-scroll="true" tabindex="-1" id="offcanvas-with-both-options" aria-labelledby="offcanvas-with-both-options-label">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvas-with-both-options-label">More</h5>
+        <h5 class="offcanvas-title" id="accountOffcanvasLabel"> Account Profile</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
@@ -29,6 +29,13 @@
           <li class="list-group-item mylist d-flex justify-content-between align-items-center">Trash<i class="fas fa-trash-alt"></i></li>
           <li class="list-group-item mylist d-flex justify-content-between align-items-center">Inbox<i class="fas fa-inbox"></i></li>
           <li class="list-group-item mylist d-flex justify-content-between align-items-center">snoozed<i class="far fa-clock"></i></li>
+  
+            <ul class="list-group">
+              <li class="list-group-item mylist d-flex justify-content-between align-items-center">Privacy Settings <i class="fas fa-user-lock"></i></li>
+              <li class="list-group-item mylist d-flex justify-content-between align-items-center">Security <i class="fas fa-shield-alt"></i></li>
+              <li class="list-group-item mylist d-flex justify-content-between align-items-center">Notifications <i class="fas fa-bell"></i></li>
+              <li class="list-group-item mylist d-flex justify-content-between align-items-center">Preferences <i class="fas fa-cog"></i></li>
+            </ul>
         </ul>
       </div>
     </p>
@@ -82,16 +89,16 @@
       <!-- Compose Button -->
       <button id="composeButton" class="btn myCompose mb-5">Compose</button>
     </div>
-    <div class="col-sm-7 mt-5">
+    <div class="col-sm-7 mt-5 col-md-8 col-lg-7">
       <!-- Background Boxes -->
       <div class="background-box mt-3 p-3"><p><strong> Subject 1</strong> <br>  Tech - Free Code Academy and others share their thoughts on LinkedIn</p></div>
-      <div class="background-box p-3"><p>Nulla vitae varius metus. In hac habitasse platea dictumst. Sed interdum pulvinar est id consectetur. Nullam a tortor quam. Fusce fringilla massa velit, a interdum velit pharetra eget. Donec posuere urna metus, ut fermentum nisl sagittis id.</p></div>
-      <div class="background-box p-3"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet, neque id iaculis tristique, tortor tortor sollicitudin libero, non vestibulum neque lacus ut purus. Sed a lacus id ex volutpat sagittis vitae vel sem. Fusce ultrices magna ligula, a lobortis mauris tincidunt vel.</p></div>
-      <div class="background-box p-3"><p>Pellentesque dignissim ipsum in risus gravida dapibus. Donec malesuada ullamcorper arcu ac tempus. Vestibulum sollicitudin ligula vitae semper fermentum. Etiam placerat lobortis tellus, ac tempus enim ultrices et. Fusce interdum justo ac mauris elementum, sit amet condimentum est fermentum.</p></div>
-      <div class="background-box p-3"><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer eu lacinia nunc. Nam gravida urna magna, sed pulvinar arcu aliquam id. Vivamus posuere dolor non ligula cursus, vel convallis arcu tincidunt.</p></div>
-      <div class="background-box p-3"><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer eu lacinia nunc. Nam gravida urna magna, sed pulvinar arcu aliquam id. Vivamus posuere dolor non ligula cursus, vel convallis arcu tincidunt.</p></div>
+      <div class="background-box p-3"><p><strong> Subject 2</strong> <br>  Tech - Free Code Academy and others share their thoughts on LinkedIn</p></div>
+      <div class="background-box p-3"><p><strong> Subject 3</strong> <br>  Tech - Free Code Academy and others share their thoughts on LinkedIn</p></div>
+      <div class="background-box p-3"><p><strong> Subject 4</strong> <br>  Tech - Free Code Academy and others share their thoughts on LinkedIn</p></div>
+      <div class="background-box p-3"><p><strong> Subject 5</strong> <br>  Tech - Free Code Academy and others share their thoughts on LinkedIn</p></div>
+      <div class="background-box p-3"><p><strong> Subject 6</strong> <br>  Tech - Free Code Academy and others share their thoughts on LinkedIn</p></div>
     </div>
-    <div class="col-sm-3 mt-5 d-none d-lg-block">
+    <div class="col-2 col-md-4 col-lg-3 mt-5 d-none d-lg-block">
       <!-- Account Profile -->
       <div class="background-box p-3 d-flex flex-column justify-content-between">
         <h5>Account Profile</h5>
@@ -104,7 +111,7 @@
       </div>
     </div>
     
-    <div class="col-sm-2 mt-5 d-lg-none d-xl-block d-xl-none d-xxl-block">
+    <div class="col-2 mt-5 d-lg-none d-xl-block d-xl-none d-xxl-block d-none d-sm-block">
       
       <!-- Account Profile - Offcanvas -->
       <button class="btn mylist myoffcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#accountOffcanvas" aria-controls="accountOffcanvas">
